@@ -139,9 +139,28 @@ img {
 
  @media screen and (max-width: 480px) {
 
+    /* LAYOUT */
+    
     .container {
         max-width: 480px;
     }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col {
+        min-width: 90%;
+        padding: 0 0;
+    }
+
+    .card {
+        min-width: 90%;
+    }
+
+/* TYPOGRAPHY */
+
     h1 {
         font-size: 50px;
         margin-bottom: 34px;
@@ -162,24 +181,14 @@ img {
         margin-bottom: 80px;
     }
 
-    .row {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .col {
-        min-width: 90%;
-        padding: 0 0;
-    }
-
-    .card {
-        min-width: 90%;
-    }
+    /* LESSONS SECTION */
 
     .lessons .col img {
         min-height: 250px;
         margin-bottom: 0;
     }
+
+    /* STEPS SECTION */
 
     .steps .col img {
         min-height: 250px;
@@ -191,6 +200,8 @@ img {
         padding-bottom: 0;
         padding-top: 48px;
     }
+
+    /* WHY US SECTION */
 
     .why-us {
         background-color: #222222;
