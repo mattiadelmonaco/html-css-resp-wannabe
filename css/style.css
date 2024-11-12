@@ -130,7 +130,10 @@ img {
 
  /* Width per tablet - dai 768px */
 
-
+ @media screen and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
 
  /* Width per mobile - dai 480px */
 
