@@ -217,3 +217,12 @@ img {
         font-size: 20.7px;
         margin-bottom: 50px;
     }
+
+    /* BONUS */
+
+    @media screen and (min-width: 769px) {
+        .container {
+            max-width: 1140px;
+            margin: auto;
+            padding: auto;
+        }
