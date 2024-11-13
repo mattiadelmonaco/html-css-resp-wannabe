@@ -128,6 +128,13 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+  /* BONUS */
+
+    .container {
+        max-width: 1140px;
+        width: 100%;
+    }
+
  /* Width per tablet - dai 768px */
 
  @media screen and (max-width: 768px) {
@@ -214,11 +221,4 @@ img {
         margin-bottom: 50px;
     }
 
-    /* BONUS */
-
-    @media screen and (min-width: 769px) {
-        .container {
-            max-width: 1140px;
-            margin: auto;
-            padding: auto;
-        }
+   
